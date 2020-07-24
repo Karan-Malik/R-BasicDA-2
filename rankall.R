@@ -1,3 +1,6 @@
+
+#Gives rank of hospitals based on the outcome, grouped by states
+
 rankall <- function(outcome, num = "best"){
   ## Reading the outcome data
   data <- read.csv("outcome-of-care-measures.csv", colClasses = "character")

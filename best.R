@@ -6,6 +6,8 @@ str(df1)
 #Histogram of 30 day death rates from Heart Attacks
 hist(as.numeric(df1[,11]))
 
+
+# To give the best hospital in a state for a particular outcome
 best<-function(state,outcome){
   
   temp<-data.frame(table(df1$State))
